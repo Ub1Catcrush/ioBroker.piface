@@ -1,0 +1,45 @@
+{
+    "common": {
+        "name":                     "piface",
+        "title":                    "PiFace for RaspBerry",
+        "desc":                     "Expand the Raspberry Pi with 8 inputs and outputs",
+        "version":                  "0.0.10",
+        "mode":                     "daemon",
+        "platform":                 "Javascript/Node.js",
+        "loglevel":                 "info",
+        "keywords":                 ["piface", "raspberry", "expand"],
+        "main":                     "piface.js",
+        "authors": [
+            "Lars Weimar <Eisbaeeer@gmail.com>"
+        ],
+        "license":                  "MIT",
+        "readme":                   "https://github.com/Eisbaeeer/node-pifacedigital/blob/master/README.md",
+        "icon":                     "onkyo.png",
+        "type":                     "hardware",
+        "extIcon":                  "https://raw.githubusercontent.com/eisbaeeer/ioBroker.piface/master/admin/piface.png"
+    },
+    "native": {
+        "PiFaceAddress":  ""
+    },
+    "objects": [
+                                                                                  
+    "instanceObjects": [
+        {
+            "_id": "OUT0",
+            "type": "state",
+            "common": {
+                "name":  "OUT0",
+                "type":  "number",
+                "role":  "output",
+                "read":  true,
+                "write": true,
+                "def":   ""
+            },
+            "native": {
+                "out0": "out"
+            }
+        }
+         ]
+  ]
+       }
+  

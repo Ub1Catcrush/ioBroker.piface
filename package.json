@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.piface",
+  "version": "0.0.10",
+  "description": "PiFace for Raspberry",
+  "author": "Lars Weimar <eisbaeeer@gmail.com>",
+  "contributors": [
+    "Lars Weimar <eisbaeeer@gmail.com>"
+  ],
+  "homepage": "https://github.com/Eisbaeeer/ioBroker.piface",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "piface",
+    "raspberry",
+    "homematic",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eisbaeeer/ioBroker.piface"
+  },
+  "dependencies": {
+	"node-pifacedigital": "https://github.com/Eisbaeeer/node-pifacedigital/tarball/master/"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-replace": "~0.7.6",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jscs": "~0.6.1",
+    "grunt-http": "~1.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-compress": "~0.8.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-exec": "~0.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Eisbaeeer/ioBroker.piface/issues"
+  },
+  "main": "piface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

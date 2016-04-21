@@ -1,0 +1,53 @@
+<html>
+<link rel="stylesheet" type="text/css" href="../../lib/css/themes/jquery-ui/redmond/jquery-ui.min.css"/>
+<script type="text/javascript" src="../../lib/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../socket.io/socket.io.js"></script>
+<script type="text/javascript" src="../../lib/js/jquery-ui-1.10.3.full.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../css/adapter.css"/>
+<script type="text/javascript" src="../../js/translate.js"></script>
+<script type="text/javascript" src="../../js/adapter-settings.js"></script>
+<script type="text/javascript">
+    systemDictionary = {
+        "PiFace Einstellungen": {
+            "de": "PiFace Einstellungen",
+            "ru": "PiFace Настройки"
+        },
+    };
+
+    function load(settings, onChange) {
+        $('.value').each(function () {
+            $(this).change(function () {
+                onChange();
+            }).keyup(function () {
+                onChange();
+            });
+        });
+        for (var key in settings) {
+            if ($('#' + key + '.value').attr('type') == 'checkbox') {
+                $('#' + key + '.value').prop('checked', settings[key]);
+            } else {
+                $('#' + key + '.value').val(settings[key]);
+            }
+        }
+        onChange(false);
+    }
+    function save(callback) {
+        var obj = {};
+        $('.value').each(function () {
+            var $this = $(this);
+            if ($this.attr('type') == 'checkbox') {
+                obj[$this.attr('id')] = $this.prop('checked');
+            } else {
+                obj[$this.attr('id')] = $this.val();
+            }
+        });
+
+        callback(obj);
+    }
+</script>
+<div id="adapter-container">
+    <table><tr><td><img src="piface.png"></td><td><h3 class="translate">PiFace adapter settings</h3></td></tr></table>
+    <p>&nbsp;</p>
+   
+</div>
+</html>
