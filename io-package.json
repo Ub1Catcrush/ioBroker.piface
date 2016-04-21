@@ -13,7 +13,7 @@
             "Lars Weimar <Eisbaeeer@gmail.com>"
         ],
         "license":                  "MIT",
-        "readme":                   "https://github.com/Eisbaeeer/node-pifacedigital/blob/master/README.md",
+        "readme":                   "https://github.com/Eisbaeeer/piface-node/blob/master/README.md",
         "icon":                     "onkyo.png",
         "type":                     "hardware",
         "extIcon":                  "https://raw.githubusercontent.com/eisbaeeer/ioBroker.piface/master/admin/piface.png"
