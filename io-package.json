@@ -1,28 +1,29 @@
 {
     "common": {
         "name":                     "piface",
-        "title":                    "PiFace for RaspBerry",
-        "desc":                     "Expand the Raspberry Pi with 8 inputs and outputs",
+        "title":                    "PiFace addon",
+        "desc":                     "Control PiFace Board",
         "version":                  "0.0.10",
         "mode":                     "daemon",
         "platform":                 "Javascript/Node.js",
         "loglevel":                 "info",
-        "keywords":                 ["piface", "raspberry", "expand"],
+        "keywords":                 ["piface", "raspberry", "addon"],
         "main":                     "piface.js",
         "authors": [
             "Lars Weimar <Eisbaeeer@gmail.com>"
         ],
         "license":                  "MIT",
-        "readme":                   "https://github.com/Eisbaeeer/node-pifacedigital/blob/master/README.md",
-        "icon":                     "onkyo.png",
+        "readme":                   "https://github.com/eisbbaeeerr/iobroker.piface/blob/master/README.md",
+        "icon":                     "piface.png",
         "type":                     "hardware",
-        "extIcon":                  "https://raw.githubusercontent.com/eisbaeeer/ioBroker.piface/master/admin/piface.png"
+        "extIcon":                  "https://raw.githubusercontent.com/eisbaeeerr/iobroker.piface/master/admin/piface.png"
     },
     "native": {
         "PiFaceAddress":  ""
     },
     "objects": [
-                                                                                  
+
+    ],
     "instanceObjects": [
         {
             "_id": "OUT0",
@@ -30,16 +31,41 @@
             "common": {
                 "name":  "OUT0",
                 "type":  "number",
-                "role":  "output",
+                "role":  "OUT.0",
                 "read":  true,
                 "write": true,
                 "def":   ""
             },
             "native": {
-                "out0": "out"
+                "command": "OUT0"
+            }
+        },
+        {
+            "_id": "OUT1",
+            "type": "state",
+            "common": {
+                "name":  "OUT1",
+                "type":  "number",
+                "role":  "OUT.1",
+                "read":  true,
+                "write": true,
+                "def":   null
+            },
+            "native": {
+                "command": "OUT1"
+            }
+        },
+        {
+            "_id": "OUT2",
+            "type": "state",
+            "common": {
+                "name":  "OUT2",
+                "type":  "number",
+                "role":  "OUT.2",
+                "read":  true,
+                "write": true,
+                "def":   null
             }
         }
-         ]
-  ]
-       }
-  
+    ]
+}
