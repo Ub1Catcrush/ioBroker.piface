@@ -13,10 +13,10 @@
             "Lars Weimar <Eisbaeeer@gmail.com>"
         ],
         "license":                  "MIT",
-        "readme":                   "https://github.com/eisbbaeeerr/iobroker.piface/blob/master/README.md",
+        "readme":                   "https://github.com/eisbaeeer/iobroker.piface/blob/master/README.md",
         "icon":                     "piface.png",
         "type":                     "hardware",
-        "extIcon":                  "https://raw.githubusercontent.com/eisbaeeerr/iobroker.piface/master/admin/piface.png"
+        "extIcon":                  "https://raw.githubusercontent.com/eisbaeeer/iobroker.piface/master/admin/piface.png"
     },
     "native": {
         "PiFaceAddress":  ""
