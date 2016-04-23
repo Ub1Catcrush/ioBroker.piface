@@ -101,23 +101,13 @@ function createObjects () {
   });
   
 function pifaceinit(){
-    var pfio = require("piface-node");
-    pfio.init();
-    var vars_init = '1';   //Init fuer Inputs
-    var PiFaceIN = [];
-    var inp = [];
+    var PIFD = require('node-pifacedigital');
+    var pi = new PIFD.PIFaceDigital(0,true);
 }  
   
 function getinputs() {
-        PiFaceIN[0] = pfio.digital_read(0);         
-        PiFaceIN[1] = pfio.digital_read(1);
-        PiFaceIN[2] = pfio.digital_read(2);
-        PiFaceIN[3] = pfio.digital_read(3);
-        PiFaceIN[4] = pfio.digital_read(4);
-        PiFaceIN[5] = pfio.digital_read(5);
-        PiFaceIN[6] = pfio.digital_read(6);
-        PiFaceIN[7] = pfio.digital_read(7);
-      adapter.log.info('Input0: ' + PiFaceIN[0]);
+        var val = pi.getInput();
+      adapter.log.info('Inputs: ' + val);
 }
 
 function main() {
