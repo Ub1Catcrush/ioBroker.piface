@@ -28,9 +28,9 @@
             "_id": "OUT0",
             "type": "state",
             "common": {
-                "name":  "OUT0",
+                "name":  "output 0",
                 "type":  "number",
-                "role":  "OUT.0",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -40,9 +40,9 @@
             "_id": "OUT1",
             "type": "state",
             "common": {
-                "name":  "OUT1",
+                "name":  "output 1",
                 "type":  "number",
-                "role":  "OUT.1",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -52,9 +52,9 @@
             "_id": "OUT2",
             "type": "state",
             "common": {
-                "name":  "OUT2",
+                "name":  "output 2",
                 "type":  "number",
-                "role":  "OUT.2",
+                "role":  "output ",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -64,9 +64,9 @@
             "_id": "OUT3",
             "type": "state",
             "common": {
-                "name":  "OUT3",
+                "name":  "output 3",
                 "type":  "number",
-                "role":  "OUT.3",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -76,9 +76,9 @@
             "_id": "OUT4",
             "type": "state",
             "common": {
-                "name":  "OUT4",
+                "name":  "output 4",
                 "type":  "number",
-                "role":  "OUT.4",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -88,9 +88,9 @@
             "_id": "OUT5",
             "type": "state",
             "common": {
-                "name":  "OUT5",
+                "name":  "output 5",
                 "type":  "number",
-                "role":  "OUT.5",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -100,9 +100,9 @@
             "_id": "OUT6",
             "type": "state",
             "common": {
-                "name":  "OUT6",
+                "name":  "output 6",
                 "type":  "number",
-                "role":  "OUT.6",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -112,9 +112,9 @@
             "_id": "OUT7",
             "type": "state",
             "common": {
-                "name":  "OUT7",
+                "name":  "output 7",
                 "type":  "number",
-                "role":  "OUT.7",
+                "role":  "output",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -124,9 +124,9 @@
             "_id": "IN0",
             "type": "state",
             "common": {
-                "name":  "IN0",
+                "name":  "input 0",
                 "type":  "number",
-                "role":  "IN.0",
+                "role":  "input ",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -136,9 +136,9 @@
             "_id": "IN1",
             "type": "state",
             "common": {
-                "name":  "IN1",
+                "name":  "input 1",
                 "type":  "number",
-                "role":  "IN.1",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -148,9 +148,9 @@
             "_id": "IN2",
             "type": "state",
             "common": {
-                "name":  "IN2",
+                "name":  "input 2",
                 "type":  "number",
-                "role":  "IN.2",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -160,9 +160,9 @@
             "_id": "IN3",
             "type": "state",
             "common": {
-                "name":  "IN3",
+                "name":  "input 3",
                 "type":  "number",
-                "role":  "IN.3",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -172,9 +172,9 @@
             "_id": "IN4",
             "type": "state",
             "common": {
-                "name":  "IN4",
+                "name":  "input 4",
                 "type":  "number",
-                "role":  "IN.4",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -184,9 +184,9 @@
             "_id": "IN5",
             "type": "state",
             "common": {
-                "name":  "IN5",
+                "name":  "input 5",
                 "type":  "number",
-                "role":  "IN.5",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -196,9 +196,9 @@
             "_id": "IN6",
             "type": "state",
             "common": {
-                "name":  "IN6",
+                "name":  "input 6",
                 "type":  "number",
-                "role":  "IN.6",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
@@ -208,9 +208,9 @@
             "_id": "IN7",
             "type": "state",
             "common": {
-                "name":  "IN7",
+                "name":  "input 7",
                 "type":  "number",
-                "role":  "IN.7",
+                "role":  "input",
                 "read":  true,
                 "write": true,
                 "def":   null
