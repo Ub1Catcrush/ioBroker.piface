@@ -31,8 +31,8 @@
                 "role":  "OUT.0",
                 "read":  true,
                 "write": true,
-                "def":   ""
-                      }
+                "def":   null
+            }
         },
         {
             "_id": "OUT1",
@@ -127,7 +127,7 @@
                 "role":  "IN.0",
                 "read":  true,
                 "write": true,
-                "def":   ""
+                "def":   null
             }
         },
         {
