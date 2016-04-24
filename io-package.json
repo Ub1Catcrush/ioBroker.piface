@@ -24,7 +24,7 @@
     "objects": [
 
     ],
-    "instanceObjects": [
+    "instanceObjects": [ {
         "outputs": {
         {
             "_id": "OUT0",
@@ -221,6 +221,6 @@
             }
         }
         }
-        
+      }  
     ]
 }
