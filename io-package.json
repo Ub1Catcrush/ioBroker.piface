@@ -22,7 +22,9 @@
         "PiFaceAddress":  ""
     },
     "objects": [ 
-        {
+    ],
+    "instanceObjects": [
+            {
             "_id": "OUT0",
             "type": "state",
             "common": {
@@ -213,8 +215,6 @@
                 "write": true,
                 "def":   null
             }
-         }
-    ],
-    "instanceObjects": [ 
+         } 
     ]
 }
