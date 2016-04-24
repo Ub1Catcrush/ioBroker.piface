@@ -21,11 +21,7 @@
     "native": {
         "PiFaceAddress":  ""
     },
-    "objects": [
-
-    ],
-    "instanceObjects": [ {
-        "outputs": {
+    "objects": [ 
         {
             "_id": "OUT0",
             "type": "state",
@@ -121,9 +117,7 @@
                 "write": true,
                 "def":   null
             }
-        }
         },
-        "inputs": {
         {
             "_id": "IN0",
             "type": "state",
@@ -134,7 +128,7 @@
                 "read":  true,
                 "write": true,
                 "def":   ""
-                      }
+            }
         },
         {
             "_id": "IN1",
@@ -219,8 +213,8 @@
                 "write": true,
                 "def":   null
             }
-        }
-        }
-      }  
+         }
+    ],
+    "instanceObjects": [ 
     ]
 }
