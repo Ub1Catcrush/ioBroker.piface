@@ -23,6 +23,34 @@ var adapter = utils.adapter({    // name has to be set and has to be equal to ad
         }
     },
 
+        
+  
+    // is called when adapter shuts down - callback has to be called under any circumstances!
+    unload: function (callback) {
+        try {
+            eiscp.close();
+        } finally {
+            callback();
+        }
+    },
+
+    ready: function () {
+        adapter.subscribeStates('*');
+        main();
+    }  
+  
+  });
+  
+function pifaceinit(){
+    var PIFD = require('node-pifacedigital');
+    var pi = new PIFD.PIFaceDigital(0,true);
+}  
+  
+function getinputs() {
+        var val = pi.getInput();
+      adapter.log.info('Inputs: ' + val);
+}
+
 function decimalToHex(d, padding) {
     var hex = Number(d).toString(16);
     padding = typeof (padding) === "undefined" || padding === null ? padding = 2 : padding;
@@ -33,7 +61,6 @@ function decimalToHex(d, padding) {
 
     return hex;
 }
-
 
 function createObjects () {
       // Datenpunkte anlegen
@@ -82,33 +109,7 @@ function createObjects () {
             adapter.setState(datapoints[i], {val: value, ack: true});
         });
     }
-   }        
-  
-    // is called when adapter shuts down - callback has to be called under any circumstances!
-    unload: function (callback) {
-        try {
-            eiscp.close();
-        } finally {
-            callback();
-        }
-    },
-
-    ready: function () {
-        adapter.subscribeStates('*');
-        main();
-    }  
-  
-  });
-  
-function pifaceinit(){
-    var PIFD = require('node-pifacedigital');
-    var pi = new PIFD.PIFaceDigital(0,true);
-}  
-  
-function getinputs() {
-        var val = pi.getInput();
-      adapter.log.info('Inputs: ' + val);
-}
+   }
 
 function main() {
     // First create the objects

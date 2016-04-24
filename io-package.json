@@ -25,6 +25,7 @@
 
     ],
     "instanceObjects": [
+        "outputs": {
         {
             "_id": "OUT0",
             "type": "state",
@@ -35,10 +36,7 @@
                 "read":  true,
                 "write": true,
                 "def":   ""
-            },
-            "native": {
-                "command": "OUT0"
-            }
+                      }
         },
         {
             "_id": "OUT1",
@@ -50,9 +48,6 @@
                 "read":  true,
                 "write": true,
                 "def":   null
-            },
-            "native": {
-                "command": "OUT1"
             }
         },
         {
@@ -66,6 +61,166 @@
                 "write": true,
                 "def":   null
             }
+        },
+        {
+            "_id": "OUT3",
+            "type": "state",
+            "common": {
+                "name":  "OUT3",
+                "type":  "number",
+                "role":  "OUT.3",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "OUT4",
+            "type": "state",
+            "common": {
+                "name":  "OUT4",
+                "type":  "number",
+                "role":  "OUT.4",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "OUT5",
+            "type": "state",
+            "common": {
+                "name":  "OUT5",
+                "type":  "number",
+                "role":  "OUT.5",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "OUT6",
+            "type": "state",
+            "common": {
+                "name":  "OUT6",
+                "type":  "number",
+                "role":  "OUT.6",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "OUT7",
+            "type": "state",
+            "common": {
+                "name":  "OUT7",
+                "type":  "number",
+                "role":  "OUT.7",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
         }
+        },
+        "inputs": {
+        {
+            "_id": "IN0",
+            "type": "state",
+            "common": {
+                "name":  "IN0",
+                "type":  "number",
+                "role":  "IN.0",
+                "read":  true,
+                "write": true,
+                "def":   ""
+                      }
+        },
+        {
+            "_id": "IN1",
+            "type": "state",
+            "common": {
+                "name":  "IN1",
+                "type":  "number",
+                "role":  "IN.1",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "IN2",
+            "type": "state",
+            "common": {
+                "name":  "IN2",
+                "type":  "number",
+                "role":  "IN.2",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "IN3",
+            "type": "state",
+            "common": {
+                "name":  "IN3",
+                "type":  "number",
+                "role":  "IN.3",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "IN4",
+            "type": "state",
+            "common": {
+                "name":  "IN4",
+                "type":  "number",
+                "role":  "IN.4",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "IN5",
+            "type": "state",
+            "common": {
+                "name":  "IN5",
+                "type":  "number",
+                "role":  "IN.5",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "IN6",
+            "type": "state",
+            "common": {
+                "name":  "IN6",
+                "type":  "number",
+                "role":  "IN.6",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        },
+        {
+            "_id": "IN7",
+            "type": "state",
+            "common": {
+                "name":  "IN7",
+                "type":  "number",
+                "role":  "IN.7",
+                "read":  true,
+                "write": true,
+                "def":   null
+            }
+        }
+        }
+        
     ]
 }
