@@ -77,10 +77,10 @@ adapter.on('stateChange', function (id, state) {
                 if (id == adapter.namespace + '.' + 'OUT6' && state.val == "0" || id == adapter.namespace + '.' + 'OUT6' && state.val == "false" ) {
                     pi.set(6,0); //(pin,value)
                     }      
-                if (id == adapter.namespace + '.' + 'OUT7' && state.val == "1" || id == adapter.namespace + '.' + 'OUT07' && state.val == "true" ) {
+                if (id == adapter.namespace + '.' + 'OUT7' && state.val == "1" || id == adapter.namespace + '.' + 'OUT7' && state.val == "true" ) {
                     pi.set(7,1); //(pin,value)
                     }
-                if (id == adapter.namespace + '.' + 'OUT07' && state.val == "0" || id == adapter.namespace + '.' + 'OUT07' && state.val == "false" ) {
+                if (id == adapter.namespace + '.' + 'OUT7' && state.val == "0" || id == adapter.namespace + '.' + 'OUT7' && state.val == "false" ) {
                     pi.set(7,0); //(pin,value)
                     }      
 
