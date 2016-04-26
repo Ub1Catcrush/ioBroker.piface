@@ -30,13 +30,14 @@ sudo make install
 
 To DO:
 - Addressing the Piface to use more than one board
-- Read interval in setup (ms)
-- Selectable invers input (pullup)
 
 ## ChangeLog
 
 ### 0.0.30
 * (Eisbaeeer) first aplpha
+* added:
+- Read interval in setup (ms)
+- Selectable invers input (pullup)
 
 ### 0.0.20
 * (Eisbaeeer) first beta
