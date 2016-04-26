@@ -46,8 +46,33 @@
     }
 </script>
 <div id="adapter-container">
-    <table><tr><td><img src="piface.png" width=200></td><td><h3 class="translate">PiFace adapter settings</h3></td></tr></table>
+    <table><tr><td><img src="piface.png" width=120></td><p><td><h3 class="translate">PiFace adapter settings</h3></td></tr></table>
     <p>&nbsp;</p>
+    <table>
+        <tr>
+            <td class="translate">PiFace Board number</td>
+            <td><select  class="value" id="piboard">
+                <option value="0" class="translate">board 1</option>
+                <option value="1" class="translate">board 2</option>
+                <option value="2" class="translate">board 3</option>
+                <option value="3" class="translate">board 4</option>
+            </select></td>
+            <td class="translate">(default = board 1)</td>
+        </tr>
+        <tr>
+            <td class="translate">PiFace input read <br>interval in ms</td>
+            <td><input value="100" type="text" size="5" id="piinterval" class="value"></td>
+            <td class="translate">ms</td>            
+        </tr>
+        <tr>            <td class="translate">inverse inputs</td>
+            <td><input type="checkbox" id="piinvers" class="value"></td>
+            <td class="translate">(because pullup is active)</td>
+        </tr>   
+        <tr>            <td class="translate">initialize outputs</td>
+            <td><input type="checkbox" id="piinit" class="value"></td>
+            <td class="translate">(initialize all outputs to 0 at start)</td>
+        </tr>           
+    </table>
    
 </div>
 </html>

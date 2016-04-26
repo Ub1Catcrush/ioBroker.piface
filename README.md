@@ -35,6 +35,9 @@ To DO:
 
 ## ChangeLog
 
+### 0.0.30
+* (Eisbaeeer) first aplpha
+
 ### 0.0.20
 * (Eisbaeeer) first beta
 
