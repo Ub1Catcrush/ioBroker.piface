@@ -26,7 +26,7 @@ adapter.on('stateChange', function (id, state) {
     adapter.log.info('stateVal ' + state.val);
 
     var PIFD = require('node-pifacedigital');
-    var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard,true));
+    var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard));
 
 
     // you can use the ack flag to detect if state is command(false) or status(true)
@@ -105,7 +105,7 @@ adapter.on('stateChange', function (id, state) {
 
 function pifaceinit(){
     var PIFD = require('node-pifacedigital');
-    var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard,true));
+    var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard));
     adapter.log.info('function pifaceinit() called!');
     adapter.log.info('PiFace init - bord number ' + adapter.config.piboard );
     adapter.log.info('PiFace init - read interval ' + adapter.config.piinterval );
@@ -134,7 +134,7 @@ function pifaceinit(){
 
 function pifaceread() {  
         var PIFD = require('node-pifacedigital');
-        var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard,true));      
+        var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard));      
                     
         PiFaceIN[0] = pi.get(0);
         PiFaceIN[1] = pi.get(1);
@@ -294,4 +294,3 @@ function main() {
     setInterval(pifaceread, adapter.config.piinterval);
     adapter.subscribeStates('*');
 }
-
