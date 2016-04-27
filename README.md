@@ -35,12 +35,12 @@ To DO:
 
 ### 0.0.40
 * (Eisbaeeer) RC
-# added:
+added:
 * addressing boards
 
 ### 0.0.30
 * (Eisbaeeer) first aplpha
-# added:
+added:
 * Read interval in setup (ms)
 * Selectable invers input (pullup)
 
