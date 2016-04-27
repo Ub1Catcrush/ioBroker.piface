@@ -12,6 +12,10 @@
             "de": "PiFace Einstellungen",
             "ru": "PiFace Настройки"
         },
+         "PiFace Board number": {
+            "de": "PiFace Board Nummer",
+            "ru": "PiFace адрес"
+        }
     };
 
     function load(settings, onChange) {
@@ -52,12 +56,12 @@
         <tr>
             <td class="translate">PiFace Board number</td>
             <td><select  class="value" id="piboard">
-                <option value="0" class="translate">board 1</option>
-                <option value="1" class="translate">board 2</option>
-                <option value="2" class="translate">board 3</option>
-                <option value="3" class="translate">board 4</option>
+                <option value="0" class="translate">board 0</option>
+                <option value="1" class="translate">board 1</option>
+                <option value="2" class="translate">board 2</option>
+                <option value="3" class="translate">board 3</option>
             </select></td>
-            <td class="translate">(default = board 1)</td>
+            <td class="translate">(default = board 0)</td>
         </tr>
         <tr>
             <td class="translate">PiFace input read <br>interval in ms</td>
