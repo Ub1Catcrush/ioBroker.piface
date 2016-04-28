@@ -32,7 +32,7 @@ If you run in errors, because your node version is too low, please update the no
 * I installed successfully with node version: v4.2.1
 
 ### Settings in iobroker
-![Alt text](admin/piface.png?raw=true "settings")
+![Alt text](admin/settings.png?raw=true "settings")
 ## PiFace board number
 
 You can stack up to 4 boards on one Raspberry Pi. You must address the board with the jumper.
