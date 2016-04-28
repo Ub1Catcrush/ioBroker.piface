@@ -28,7 +28,7 @@ make
 sudo make install
 ```
 
-If you run in errors, because your node version is too low, please update the node verison.
+If you run in errors, because your node version is too low, please update the node version.
 * I installed successfully with node version: v4.2.1
 
 To DO:
