@@ -43,6 +43,8 @@ To address the boards use the following jumper settings:
 * 2             0     1
 * 3             1     1
 
+If you use more than one board, please create additional instances for every board and change the board number in setup of corrosponding instance.
+
 ## PiFace read input in ms
 This value define the interval to check the inputs. Value is in ms.
 
