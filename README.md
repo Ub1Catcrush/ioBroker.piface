@@ -37,11 +37,13 @@ If you run in errors, because your node version is too low, please update the no
 
 You can stack up to 4 boards on one Raspberry Pi. You must address the board with the jumper.
 To address the boards use the following jumper settings:
-* Board number  JP1   JP2
-* 0             0     0
-* 1             1     0
-* 2             0     1
-* 3             1     1
+
+| Board number  | JP1 | JP2 |
+| ------------- |:---:|:---:|
+| board 0       |  0  |  0  |
+| board 1       |  1  |  0  |
+| board 2       |  0  |  1  |
+| board 3       |  1  |  1  |
 
 If you use more than one board, please create additional instances for every board and change the board number in setup of corrosponding instance.
 
@@ -54,7 +56,7 @@ You can inverse the inputs
 ## Initialize outputs
 If this is checked, the outputs will be set to 0 by restarting the adapter.
 
-To DO:
+## To DO:
 - Testing Multi-Host
 
 ## ChangeLog
