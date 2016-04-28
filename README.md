@@ -9,7 +9,7 @@ The adapter creates 8 input and output objects in iobroker.
 The outputs can controlled by buttons from VIS or by setting the object to
 "true" or "false" or "1" or "0".
 
-### Attention
+### ! Attention !
 Please read the pre requirements of adapter
 You have to install by console the following libraries and enable SPI support of Raspberry
 by setting up in "raspi-config"
@@ -28,8 +28,11 @@ make
 sudo make install
 ```
 
+If you run in errors, because your node version is too low, please update the node verison.
+* I installed successfully with node version: v4.2.1
+
 To DO:
-- Multi Host
+- Testing Multi-Host
 
 ## ChangeLog
 
