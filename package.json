@@ -1,6 +1,6 @@
 {
   "name": "iobroker.piface",
-  "version": "0.0.40",
+  "version": "0.0.50",
   "description": "PiFace for Raspberry",
   "author": "Lars Weimar <eisbaeeer@gmail.com>",
   "contributors": [

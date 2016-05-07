@@ -16,6 +16,7 @@ The outputs can controlled by buttons from VIS or by setting the object to
 
 ### ! Attention !
 Please read the pre requirements of adapter.
+The adapter need node version >= v4.0.0
 You have to install by console the following libraries and enable SPI support of Raspberry
 by setting up in "raspi-config"
 
@@ -62,9 +63,12 @@ You can inverse the inputs
 If this is checked, the outputs will be set to 0 by restarting the adapter.
 
 ## To DO:
-- Testing Multi-Host
 
 ## ChangeLog
+
+### 0.0.50 (2016-05-07)
+* (Eisbeeer)
+* Optimized loggin because of RPI´s flash
 
 ### 0.0.40
 * (Eisbaeeer) RC

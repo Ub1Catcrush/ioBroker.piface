@@ -18,12 +18,12 @@ adapter.on('ready', function () {
 });
 
 adapter.on('objectChange', function (id, obj) {
-    adapter.log.info('objectChange ' + id + ' ' + JSON.stringify(obj));
+   // adapter.log.info('objectChange ' + id + ' ' + JSON.stringify(obj));
 });
 
 adapter.on('stateChange', function (id, state) {
-    adapter.log.info('stateChange ' + id + ' ' + JSON.stringify(state));
-    adapter.log.info('stateVal ' + state.val);
+ //   adapter.log.info('stateChange ' + id + ' ' + JSON.stringify(state));
+ //   adapter.log.info('stateVal ' + state.val);
 
     var PIFD = require('node-pifacedigital');
     var pi = new PIFD.PIFaceDigital(parseInt(adapter.config.piboard));
@@ -31,7 +31,7 @@ adapter.on('stateChange', function (id, state) {
 
     // you can use the ack flag to detect if state is command(false) or status(true)
     if (!state.ack) {
-        adapter.log.info('ack is not set!');
+     //   adapter.log.info('ack is not set!');
                 
     // here we go and set the outputs if state of object is changed with no ack
                 if (id == adapter.namespace + '.' + 'OUT0' && state.val == "1" || id == adapter.namespace + '.' + 'OUT0' && state.val == "true" ) {
