@@ -66,9 +66,13 @@ If this is checked, the outputs will be set to 0 by restarting the adapter.
 
 ## ChangeLog
 
+### 0.0.9 (2017-03-05)
+* (truegreyhound)
+* Solved memory issue
+
 ### 0.0.50 (2016-05-07)
 * (Eisbeeer)
-* Optimized loggin because of RPI´s flash
+* Optimized loggin because of RPIÂ´s flash
 
 ### 0.0.40
 * (Eisbaeeer) RC
