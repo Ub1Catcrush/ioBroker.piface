@@ -69,6 +69,8 @@ If this is checked, the outputs will be set to 0 by restarting the adapter.
 ### 0.0.9 (2017-03-05)
 * (truegreyhound)
 * Solved memory issue
+* (Apollon77)
+* Added basic testing
 
 ### 0.0.50 (2016-05-07)
 * (Eisbeeer)
