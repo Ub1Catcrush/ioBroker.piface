@@ -3,7 +3,7 @@
         "name":                     "piface",
         "title":                    "PiFace addon",
         "desc":                     "Control PiFace Board",
-        "version":                  "0.0.50",
+        "version":                  "0.0.9",
         "mode":                     "daemon",
         "platform":                 "Javascript/Node.js",
         "loglevel":                 "info",
