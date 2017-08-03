@@ -4,20 +4,20 @@ language: node_js
 node_js:
   - '4'
   - '6'
-  - '7'
+  - '8'
 before_install:
-  - git clone https://github.com/piface/libmcp23s17.git
+  - 'git clone https://github.com/piface/libmcp23s17.git'
   - cd libmcp23s17/
   - make
   - sudo make install
   - cd ..
-  - git clone https://github.com/piface/libpifacedigital.git
+  - 'git clone https://github.com/piface/libpifacedigital.git'
   - cd libpifacedigital/
   - make
   - sudo make install
   - cd ..
 before_script:
-  - npm install winston@2.3.0
+  - npm install winston@2.3.1
   - 'npm install https://github.com/ioBroker/ioBroker.js-controller/tarball/master --production'
 env:
   - CXX=g++-4.8
