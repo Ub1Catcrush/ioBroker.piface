@@ -67,6 +67,8 @@ If this is checked, the outputs will be set to 0 by restarting the adapter.
 ## ChangeLog
 
 ### 0.0.9 (2017-03-05)
+* (Eisbaeeer)
+* Activating Travis - no changes
 * (truegreyhound)
 * Solved memory issue
 * (Apollon77)
