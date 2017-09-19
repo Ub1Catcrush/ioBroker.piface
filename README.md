@@ -1,6 +1,5 @@
 ![Logo](admin/piface.png)
 # ioBroker.piface
-=======================
 [![NPM version](http://img.shields.io/npm/v/iobroker.piface.svg)](https://www.npmjs.com/package/iobroker.piface)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.piface.svg)](https://www.npmjs.com/package/iobroker.piface)
 [![NPM](https://nodei.co/npm/iobroker.piface.png?downloads=true)](https://nodei.co/npm/iobroker.piface/)
