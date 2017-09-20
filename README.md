@@ -1,10 +1,10 @@
 ![Logo](admin/piface.png)
 # ioBroker.piface
-=======================
 [![NPM version](http://img.shields.io/npm/v/iobroker.piface.svg)](https://www.npmjs.com/package/iobroker.piface)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.piface.svg)](https://www.npmjs.com/package/iobroker.piface)
-
+[![Travis-CI](https://travis-ci.org/Eisbaeeer/ioBroker.piface.svg?branch=master)](https://travis-ci.org/Eisbaeeer/ioBroker.piface)   
 [![NPM](https://nodei.co/npm/iobroker.piface.png?downloads=true)](https://nodei.co/npm/iobroker.piface/)
+
 
 This adapter allows to control a Piface on Raspberry Pi .
 
@@ -66,11 +66,13 @@ If this is checked, the outputs will be set to 0 by restarting the adapter.
 
 ## ChangeLog
 
+### 1.0.0.(2017-09-19)
+* (Eisbaeeer)
+* Solving issue #6 (RAM)
+
 ### 0.0.9 (2017-03-05)
 * (Eisbaeeer)
 * Activating Travis - no changes
-* (truegreyhound)
-* Solved memory issue
 * (Apollon77)
 * Added basic testing
 
