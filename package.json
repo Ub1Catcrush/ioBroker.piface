@@ -20,20 +20,20 @@
     "url": "https://github.com/Eisbaeeer/ioBroker.piface"
   },
   "dependencies": {
-	"node-pifacedigital": "https://github.com/Eisbaeeer/node-pifacedigital/tarball/master/"
+    "node-pifacedigital": "https://github.com/Eisbaeeer/node-pifacedigital/tarball/master/"
   },
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-replace": "~0.7.6",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-jscs": "~0.6.1",
-    "grunt-http": "~1.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-compress": "~0.8.0",
-    "grunt-contrib-copy": "~0.5.0",
-    "grunt-exec": "~0.4.5",
-    "mocha": "^2.3.4",
-    "chai": "^3.4.1"
+    "grunt": "^1.0.1",
+    "grunt-replace": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-jscs": "^3.0.1",
+    "grunt-http": "^2.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-exec": "^3.0.0",
+    "mocha": "^3.5.3",
+    "chai": "^4.1.2"
   },
   "bugs": {
     "url": "https://github.com/Eisbaeeer/ioBroker.piface/issues"
