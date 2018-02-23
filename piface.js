@@ -9,7 +9,7 @@
  */
 
 var utils =   require(__dirname + '/lib/utils'); // Get common adapter utils
-var adapter = utils.adapter('piface');
+var adapter = utils.Adapter('piface');
 var PiFaceIN = [];
 var inp = [];
 PIFD = require('node-pifacedigital');
