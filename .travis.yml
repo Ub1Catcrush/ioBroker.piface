@@ -5,6 +5,7 @@ node_js:
   - '4'
   - '6'
   - '8'
+  - '10'
 before_install:
   - 'git clone https://github.com/piface/libmcp23s17.git'
   - cd libmcp23s17/
@@ -17,6 +18,9 @@ before_install:
   - sudo make install
   - cd ..
 before_script:
+  - export NPMVERSION=$(echo "$($(which npm) -v)"|cut -c1)
+  - 'if [[ $NPMVERSION == 5 ]]; then npm install -g npm@5; fi'
+  - npm -v
   - npm install winston@2.3.1
   - 'npm install https://github.com/ioBroker/ioBroker.js-controller/tarball/master --production'
 env:
