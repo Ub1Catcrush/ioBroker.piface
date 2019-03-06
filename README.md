@@ -97,5 +97,5 @@ added:
 ### 0.0.10
 * (Eisbaeeer) initial version
 
-## LICENSE
+## License
 MIT
