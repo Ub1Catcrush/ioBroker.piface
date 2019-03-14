@@ -20,7 +20,8 @@
     "url": "https://github.com/Eisbaeeer/ioBroker.piface"
   },
   "dependencies": {
-    "node-pifacedigital": "https://github.com/Eisbaeeer/node-pifacedigital/tarball/master/"
+    "node-pifacedigital": "https://github.com/Eisbaeeer/node-pifacedigital/tarball/master/",
+    "@iobroker/adapter-core": "^1.0.3"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
